@@ -1,0 +1,37 @@
+p{
+
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-right:50px;
+  margin-left: 70px;
+  background-color: blue;
+
+}
+h1{
+  border: 5px dotted black;
+  margin: 30px 60px 90px 120px;
+}
+h2{
+  border: 5px groove Beige;
+  margin: 30px 60px 90px;
+}
+h3{
+  border: 5px outset black;
+  margin: 30px 60px;
+}
+h4{
+  border: 5px inset black;
+  margin: 30px;
+
+}
+h5{
+  width: 100px;
+  border: 5px doubled black;
+  margin: 0 0 50 0;
+}
+div{
+  width: 200px;
+  margin:auto;
+  border: 5px ridge red;
+
+}

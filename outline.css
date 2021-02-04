@@ -1,0 +1,33 @@
+p{
+border:5px solid red;
+outline:blue solid 10px;
+margin:auto;
+padding:20px;
+text-align:center;
+
+}
+p.one{
+  border:2px doubled red;
+  outline-style:solid;
+  outline-color:gray;
+  outline-width:thin;
+}
+p.two{
+  border:2px solid black;
+  outline-style:solid;
+  outline-color:yellow;
+  outline-width:medium;
+}
+p.three{
+  border:2px solid black;
+  outline-style:dotted;
+  outline-color:orange;
+  outline-width:thick;
+}
+p.four{outlin:5px solod yellow;}
+p.five{
+  margin:30px;
+  border:3px doubled black;
+  outline:2px inset red;
+  outline-offset:20px;
+}

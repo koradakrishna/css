@@ -1,0 +1,22 @@
+h1{
+  letter-spacing:5px;
+  }
+h2{
+  letter-spacing:-5px;
+}
+
+p.small{
+  line-height:0.9;
+}
+p.big{
+  line-height:1.9;
+}
+h3{
+  word-spacing:10px;
+}
+h4{
+  word-spacing:-5px;
+}
+p.one{
+  white-space: nowrap;
+}
