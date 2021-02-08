@@ -49,7 +49,8 @@ iframe_a{
 
 }
 img{
- float:left;
+
+ float:right;
  text-shadow: 20px 20px;
 }
 h1{
