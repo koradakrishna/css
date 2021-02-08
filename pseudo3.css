@@ -1,0 +1,10 @@
+input:optional{
+  background-color: yellow;
+}
+:target{
+  border:3px solid orange;
+  background-color:white;
+}
+input:readonly{
+  background-color:yellow;
+}

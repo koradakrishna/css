@@ -1,0 +1,24 @@
+input[type=text]:enabled{
+  background:red;
+}
+input[type=text]:disabled{
+  background:yellow;
+}
+p:first-of-type{
+  background: red;
+}
+a:hover{
+  background: grey;
+}
+input:in-range{
+  border:3px solid green;
+}
+input:invalid{
+  border:3px solid green;
+}
+p{
+  color: yellow;
+}
+:not(p){
+  color:green;
+}

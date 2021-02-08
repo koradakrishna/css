@@ -1,0 +1,27 @@
+img.one
+{
+  float: none;
+  height:120px;
+  width:130px;
+}
+img.two
+{
+  float: right;
+
+  height:130px;
+  width:140px;
+}
+img.three
+{
+  float: left;
+  height:140px;
+  width:150px;
+
+}
+p
+{
+  border:5px solid green;
+}
+.clearfix {
+  overflow: auto;
+}

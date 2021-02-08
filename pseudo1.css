@@ -1,0 +1,19 @@
+input:focus{
+  background-color:grey;
+}
+input:checked {
+height: 50px;
+width: 50px;
+}
+
+input[type=text]:disabled{
+background: orange;
+}
+option:disabled{
+background:red;
+}
+P:empty{
+width:100px;
+height: 20px;
+background: blue;
+}

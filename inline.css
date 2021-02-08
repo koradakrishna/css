@@ -1,0 +1,24 @@
+span.a{
+  display: inline;
+  width:100px;
+  height:100px;
+  padding:5px;
+  border:2px solid blue;
+  background-color: grey;
+}
+span.b{
+  display: inline-block;
+  width:100px;
+  height:100px;
+  padding:5px;
+  border:2px solid blue;
+  background-color: grey;
+}
+span.c{
+  display: block;
+  width:100px;
+  height:100px;
+  padding:5px;
+  border:2px solid blue;
+  background-color: grey;
+}
