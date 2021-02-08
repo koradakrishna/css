@@ -1,0 +1,38 @@
+.center
+{
+  text-align: center;
+  border: 5px solid green;
+}
+img
+{
+display:block;
+margin-left: auto;
+margin-right: auto;
+width:30%;
+border: 10px outset grey;
+}
+.right{
+  float:right;
+  width:300px;
+  border: 5px solid red;
+  padding:5px;
+}
+div{
+  border:5px solid red;
+  padding: 5px;
+}
+.img1
+{
+  float:right;
+}
+.clearfix{
+  overflow:auto;
+}
+.img2{
+  float: right;
+}
+.center1{
+  padding:60px 0;
+  border: 5px solid green;
+  text-align: center;
+}
