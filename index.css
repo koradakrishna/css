@@ -38,9 +38,10 @@ p {
 
 }
 
-iframe_a{
+iframe{
  border:2px solid red;
  align: center;
+ height: 500px;
 
 }
 img{
