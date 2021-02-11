@@ -1,0 +1,19 @@
+body{
+  background-color: grey;
+}
+table{
+  border: 10px inset green;
+  padding:10px;
+  text-align: center;
+
+
+
+}
+input[type="button"]
+{
+  background-color: blue;
+  color:white;
+  
+  padding:5px;
+  border: 2px solid red;
+}
