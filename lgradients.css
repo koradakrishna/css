@@ -1,0 +1,27 @@
+#one{
+  height:200px;
+  background-color:red;
+  background-image:linear-gradient(yellow,green);
+
+}
+#two{
+  height:200px;
+  background-color:yellow;
+  background-image:linear-gradient(to right,blue,green);
+
+}
+#three{
+  height:200px;
+  background-color:black;
+  background-image:linear-gradient(to bottom,orange,black);
+}
+#four{
+  height:200px;
+  background-color:black;
+  background-image:linear-gradient(180deg,orange,green);
+}
+#five{
+  height:200px;
+  background-color:blue;
+  background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
