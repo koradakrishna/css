@@ -1,0 +1,98 @@
+body{
+  background-color: grey;
+    text-decoration: none;
+
+
+
+}
+div{
+    text-decoration: none;
+}
+span{
+  color:lawngreen;
+}
+
+.html {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  padding: 12px 16px;
+
+}
+
+.one {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+
+}
+
+.html:hover .one {
+  float: left;
+  display: block;
+}
+
+
+.css {
+  position: relative;
+  display: inline-block;
+}
+
+.two {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.css:hover .two {
+  float: left;
+  display: block;
+}
+
+
+.ex {
+  position: relative;
+  display: inline-block;
+}
+
+.three {
+  float:left;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 60px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.ex:hover .three {
+float: left;
+  display: block;
+}
+
+.pseudo {
+  position: relative;
+  display: inline-block;
+  width:10px;
+}
+
+.four {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+
+  min-width: 70px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.pseudo:hover .four {
+  float: left;
+  display: block;
+}
