@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    a[target] {
+      background-color: yellow;
+    }
+
+    a[target="_blank"] {
+      background-color: red;
+    }
+
+    [title~=roses] {
+      border: 10px solid green;
+    }
+
+    [class|=top] {
+      background-color: red;
+    }
+
+    [class$="test"] {
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h3> CSS ARRTIBUTE SELECTORS</h3>
+  <a href="https://www.google.com/" target="_blank">Google.com</a>
+  <a href="https://www.amazon.in/" target="_parent">Facebook.com</a>
+  <a href="https://www.amazon.in/" target="_self">Amazon.in</a>
+  <br><br><br>
+  <img src="flower1.jpg" alt="tulip" title="tulip" width="150" height="100">
+  <img src="flower2.jpg" alt="roses" title="roses" width="200" height="150">
+  <img src="flower3.jpg" alt="jasmine" title="jasmine" width="180" height="150">
+  <br><br><br>
+  <h1 class="top-header"> Welcome</h1>
+  <p class="top-text"> This is a Paragraph</p>
+  <p class="topcontent"> Learning CSS </p>
+  <br><br><br><br>
+  <div class="first_test"> First div</div>
+  <div class="second"> second div</div>
+  <div class="my-test"> third div </div>
+</body>
+
+</html>
