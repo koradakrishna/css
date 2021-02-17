@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  background-color: lightblue;
+}
+img {
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+    position: relative;
+  animation: mymove 3s infinite;
+}
+
+#one {animation-timing-function: linear;}
+#two {animation-timing-function: ease;}
+#three {animation-timing-function: ease-in;}
+#four {animation-timing-function: ease-out;}
+
+@keyframes mymove {
+  from {left: 20px;}
+  to {left: 300px;}
+}
+</style>
+</head>
+<body>
+
+
+<img id="one" src="rose1.jpg" alt=""><br>
+<img id="two" src="rose2.jpg" alt=""><br>
+<img id="three" src="rose3.jpg" alt=""><br>
+<img id="four" src="rose4.jpg" alt=""><br>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body{
+        background:lightblue;
+      }
+
+          img{
+        width:100px;
+        height:100px;
+        transition:width 3s;
+      }
+
+      #img1{transition-timing-function:linear;}
+      #img2{transition-timing-function:ease;}
+      #img3{transition-timing-function:ease-in;}
+      #img4{transition-timing-function:ease-out;}
+      #img5{transition-timing-function:ease-in-out;}
+
+      img:hover{
+        width:200px;
+      }
+      </style>
+  </head>
+  <body>
+    <img id="img1" src="smallrose.jpg" alt="rose">LINEAR<br>
+    <img id="img2" src="smallrose.jpg" alt="rose">EASE<br>
+    <img id="img3" src="smallrose.jpg" alt="rose">EASE-IN<br>
+    <img id="img4" src="smallrose.jpg" alt="rose">EASE-OUT<br>
+    <img id="img5" src="smallrose.jpg" alt="rose">EASE-IN-OUT<br>
+  </body>
+</html>
