@@ -23,7 +23,7 @@ span{
 .one {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   min-width: 160px;
   padding: 12px 16px;
   z-index: 1;
@@ -45,7 +45,7 @@ span{
 .two {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   min-width: 150px;
   padding: 12px 16px;
   z-index: 1;
@@ -68,11 +68,12 @@ span{
 
   display: none;
   position: absolute;
-  background-color: grey;
-  text-decoration: none;
-  min-width: 87px;
+  background-color: white;
+text-align: center;
+  min-width: 150px;
+ padding: 0px;
   z-index: 1;
-  text-align: left;
+
 }
 
 .ex:hover .gradients {
@@ -88,19 +89,20 @@ span{
 .four {
   display: none;
   position: absolute;
-  background-color: grey;
+  background-color: white;
 text-align: center;
-  min-width: 87px;
-
+  min-width: 150px;
+ padding: 0px;
   z-index: 1;
+
 
 }
 
 .pseudo:hover .four {
   display: block;
-  width: 50px;
+  width: 75px;
 }
-jj
+
 .transition {
   position: relative;
   display: inline-block;
@@ -110,10 +112,10 @@ jj
 .five {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: white;
 text-align: center;
-  min-width: 87px;
-
+  min-width: 150px;
+ padding: 0px;
   z-index: 1;
 
 }
@@ -122,7 +124,7 @@ text-align: center;
   display: block;
   width: 50px;
 }
-hh
+
 .animation {
   position: relative;
   display: inline-block;
@@ -132,10 +134,10 @@ hh
 .six {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: white;
 text-align: center;
-  min-width: 87px;
-
+  min-width: 150px;
+ padding: 0px;
   z-index: 1;
 
 }
@@ -143,4 +145,49 @@ text-align: center;
 .animation:hover .six {
   display: block;
   width: 50px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width:50px;
+}
+
+.tool {
+  display: none;
+  position: absolute;
+  background-color: white;
+text-align: center;
+  min-width: 150px;
+ padding: 0px;
+  z-index: 1;
+
+}
+
+.tooltip:hover .tool {
+  display: block;
+  width: 50px;
+}
+
+.styling {
+  position: relative;
+  display: inline-block;
+  width:80px;
+}
+
+.images {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+text-align: center;
+  min-width: 105px;
+
+  z-index: 1;
+
+}
+
+.styling:hover .images {
+  display: block;
+  width: 150px;
 }
