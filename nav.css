@@ -1,5 +1,5 @@
 body{
-  background-color: grey;
+  background-color: #FF7F00;
 }
 img{
 
@@ -17,7 +17,8 @@ span{
   position: relative;
   display: inline-block;
   width: 50px;
-  padding: 12px 16px;
+  padding: 16px 12px;
+
 }
 
 .one {
@@ -25,9 +26,8 @@ span{
   position: absolute;
   background-color: white;
   min-width: 160px;
-  padding: 12px 16px;
   z-index: 1;
-  text-align: left;
+  padding: 16px 12px;
 
 }
 
@@ -47,9 +47,9 @@ span{
   position: absolute;
   background-color: white;
   min-width: 150px;
-  padding: 12px 16px;
   z-index: 1;
-  text-align: left;
+  padding: 16px 12px;
+  border: 2px inset black;
 
 }
 
@@ -68,11 +68,13 @@ span{
 
   display: none;
   position: absolute;
-  background-color: white;
-text-align: center;
-  min-width: 150px;
- padding: 0px;
+  background-color: green;
+  min-width: 100px;
   z-index: 1;
+padding: 0px;
+border: 2px solid green;
+text-align: center;
+border: 2px inset black;
 
 }
 
@@ -83,18 +85,17 @@ text-align: center;
 .pseudo {
   position: relative;
   display: inline-block;
-  width:50px;
+  width:90px;
 }
 
 .four {
   display: none;
   position: absolute;
-  background-color: white;
-text-align: center;
+  background-color: green;
   min-width: 150px;
- padding: 0px;
   z-index: 1;
-
+ text-align: center;
+ border: 2px inset black;
 
 }
 
@@ -112,11 +113,11 @@ text-align: center;
 .five {
   display: none;
   position: absolute;
-  background-color: white;
-text-align: center;
+  background-color: green;
   min-width: 150px;
- padding: 0px;
   z-index: 1;
+ text-align: center;
+ border: 2px inset black;
 
 }
 
@@ -134,11 +135,11 @@ text-align: center;
 .six {
   display: none;
   position: absolute;
-  background-color: white;
-text-align: center;
+  background-color: green;
   min-width: 150px;
- padding: 0px;
   z-index: 1;
+ text-align: center;
+ border: 2px inset black;
 
 }
 
@@ -150,17 +151,17 @@ text-align: center;
 .tooltip {
   position: relative;
   display: inline-block;
-  width:50px;
+  width:180px;
 }
 
 .tool {
   display: none;
   position: absolute;
-  background-color: white;
-text-align: center;
+  background-color: green;
   min-width: 150px;
- padding: 0px;
   z-index: 1;
+ text-align: center;
+ border: 2px inset black;
 
 }
 
@@ -172,16 +173,19 @@ text-align: center;
 .styling {
   position: relative;
   display: inline-block;
-  width:80px;
+  width:180px;
+
+
 }
 
 .images {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: green;
+  border: 2px inset black;
 
-text-align: center;
-  min-width: 105px;
+  min-width: 160px;
+
 
   z-index: 1;
 
@@ -190,4 +194,5 @@ text-align: center;
 .styling:hover .images {
   display: block;
   width: 150px;
+
 }
