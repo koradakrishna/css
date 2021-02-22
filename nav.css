@@ -8,9 +8,10 @@ img{
 
 a{
   text-decoration: none;
+  color: red;
 }
 span{
-  color:blue;
+  color:red;
 }
 
 .html {
@@ -68,7 +69,7 @@ span{
 
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: black;
   min-width: 100px;
   z-index: 1;
 padding: 0px;
@@ -91,11 +92,11 @@ border: 2px inset black;
 .four {
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: black;
   min-width: 150px;
   z-index: 1;
  text-align: center;
- border: 2px inset black;
+ border: 4px inset black;
 
 }
 
@@ -113,11 +114,11 @@ border: 2px inset black;
 .five {
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: black;
   min-width: 150px;
   z-index: 1;
  text-align: center;
- border: 2px inset black;
+ border: 4px inset black;
 
 }
 
@@ -135,11 +136,11 @@ border: 2px inset black;
 .six {
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: black;
   min-width: 150px;
   z-index: 1;
  text-align: center;
- border: 2px inset black;
+ border: 4px inset black;
 
 }
 
@@ -157,11 +158,11 @@ border: 2px inset black;
 .tool {
   display: none;
   position: absolute;
-  background-color: green;
+  background-color: black;
   min-width: 150px;
   z-index: 1;
  text-align: center;
- border: 2px inset black;
+ border: 4px inset black;
 
 }
 
@@ -181,8 +182,8 @@ border: 2px inset black;
 .images {
   display: none;
   position: absolute;
-  background-color: green;
-  border: 2px inset black;
+  background-color: black;
+  border: 4px inset black;
 
   min-width: 160px;
 
