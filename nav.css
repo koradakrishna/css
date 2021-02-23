@@ -13,7 +13,7 @@ a{
 span{
   color:blue;
 }
-
+/* html*/
 .html {
   position: relative;
   display: inline-block;
@@ -37,7 +37,7 @@ span{
   display: block;
 }
 
-
+/*CSS*/
 .css {
   position: relative;
   display: inline-block;
@@ -59,7 +59,7 @@ span{
   display: block;
 }
 
-
+/* Gradients */
 .ex {
   position: relative;
   display: inline-block;
@@ -83,6 +83,7 @@ border: 2px inset black;
  display: block;
 }
 
+/* Psuedo Class */
 .pseudo {
   position: relative;
   display: inline-block;
@@ -105,6 +106,7 @@ border: 2px inset black;
   width: 75px;
 }
 
+/* Transition */
 .transition {
   position: relative;
   display: inline-block;
@@ -127,6 +129,7 @@ border: 2px inset black;
   width: 50px;
 }
 
+/* Animation */
 .animation {
   position: relative;
   display: inline-block;
@@ -149,6 +152,7 @@ border: 2px inset black;
   width: 50px;
 }
 
+/* ToolTip */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -171,6 +175,34 @@ border: 2px inset black;
   width: 50px;
 }
 
+/* HoverLay */
+.slide {
+  position: relative;
+  display: inline-block;
+  width:180px;
+
+
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 4px inset black;
+
+  min-width: 160px;
+
+
+  z-index: 1;
+
+}
+
+.slide:hover .overlay {
+  display: block;
+  width: 150px;
+
+}
+/* Styling Images */
 .styling {
   position: relative;
   display: inline-block;
@@ -189,10 +221,50 @@ border: 2px inset black;
 
 
   z-index: 1;
+  transition: all 0.5s;
 
 }
 
 .styling:hover .images {
+  display: block;
+  width: 150px;
+transition: all 0.5s;
+}
+.styling:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.styling span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+/* Button Style*/
+.button {
+  position: relative;
+  display: inline-block;
+  width:180px;
+
+
+}
+
+.effects {
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 4px inset black;
+
+  min-width: 160px;
+
+
+  z-index: 1;
+
+}
+
+.button:hover .effects {
   display: block;
   width: 150px;
 
