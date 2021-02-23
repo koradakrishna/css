@@ -1,35 +1,39 @@
-.container{
+.container {
   position: relative;
-  width: 50%;
+  width: 10%;
 }
-.image{
+
+.image {
   display: block;
-  width: 100;
+  width: 100%;
   height: auto;
 }
-.overlay{
+
+.overlay {
   position: absolute;
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: blue;
+  background-color: #008CBA;
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
 }
-.container:hover .overlay{
+
+.container:hover .overlay {
   width: 100%;
   left: 0;
 }
-.text{
+
+.text {
   white-space: nowrap;
   color: white;
   font-size: 20px;
   position: absolute;
   overflow: hidden;
-  top:50%;
+  top: 50%;
   left: 50%;
-  transform: :translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
