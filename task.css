@@ -1,0 +1,84 @@
+.container{
+  display:flex;
+  padding-left:40%;
+}
+
+.container1 {
+  display: flex;
+  padding-left: 40%;
+  text-align: center;
+}
+
+#about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding:10px;
+}
+h2{
+  color:white;
+}
+.index {
+  padding: 20px;
+}
+
+.one {
+  display: block;
+  width: 150px;
+  height: 120px;
+  border-radius: 55px;
+}
+table {
+  position: relative;
+  background-color: #2a52be;
+  height: 30px;
+
+}
+
+#resume {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#resume td,
+#resume th {
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#resume tr:nth-child(even) {
+  background-color: #2a52be;
+}
+
+#resume tr:nth-child(odd) {
+  background-color: white;
+}
+
+#resume th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color:
+    color: white;
+}
+img.one{
+  text-align:center;
+
+}
+a{
+  text-decoration:none;
+  text-align:center;
+}
+.container3{
+  display: flex;
+  position: relative;
+  padding-left: 40%;
+}
+#contact{
+ width:145px;
+ padding:15px;
+}
+h4{
+  color:white;
+  font-style:arial;
+}
