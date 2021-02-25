@@ -1,0 +1,102 @@
+.container1 {
+  display: flex;
+  padding-left: 40%;
+  text-align: center;
+}
+
+#about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.container2 {
+  display: flex;
+  padding-left: 40%;
+  font-family: arial;
+  font-size: 13px;
+  width: 30px;
+}
+
+.container3 {
+  display: flex;
+  padding-left: 40%;
+  font-family: arial;
+  font-size: 13px;
+  width: 30px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.index {
+  padding: 20px;
+}
+
+.one {
+  display: block;
+  width: 150px;
+  height: 120px;
+  border-radius: 55px;
+}
+
+img.one {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  color: white;
+}
+
+table {
+  background-color: #2a52be;
+  padding: 10px;
+  width: 0px;
+}
+
+#resume {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#resume td,
+#resume th {
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+#resume tr:nth-child(even) {
+  background-color: #2a52be;
+}
+
+#resume tr:nth-child(odd) {
+  background-color: white;
+}
+
+#resume th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color:
+    color: white;
+}
+
+address {
+  background-color: grey;
+}
+
+#contact {
+  background-color: blue;
+}
+
+label {
+  background-color: white;
+  color: black;
+}
